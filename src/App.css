@@ -1,0 +1,100 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+form>div {
+  flex: 1 0;
+  width: 400px;
+}
+
+form>div>input {
+  width: 100%;
+}
+
+form>div:last-child {
+  margin-top: 0.5em;
+  display: flex;
+}
+
+table {
+  height: 500px;
+}
+
+table td {
+  border-right: 0.1rem solid
+}
+
+table th {
+  text-align: center;
+}
+
+table tfoot td {
+  border-right: unset !important
+}
+
+table div p {
+  padding-right: 0.3rem;
+}
+
+table>tfoot div {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header>div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header p {
+  text-transform: capitalize;
+  margin: 0;
+  font-weight: bolder;
+}
+
+.login_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_div button {
+  align-self: center;
+}
+
+body > iframe {
+  display: none;
+}
+
+.div_error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div_error h2 {
+  align-self: center;
+}
